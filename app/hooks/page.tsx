@@ -34,7 +34,7 @@ export default function HooksPage() {
     <div className="max-w-4xl mx-auto px-4 py-10">
       <Breadcrumb items={[{ label: "React Hooks" }]} />
       <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-        Stage 4: React Hooks
+        Stage 6: React Hooks
       </h1>
       <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
         Hooks are functions that let you &quot;hook into&quot; React features like state and lifecycle from a functional component. They all start with <code className="bg-gray-200 dark:bg-gray-700 px-1.5 py-0.5 rounded text-sm">use</code>.

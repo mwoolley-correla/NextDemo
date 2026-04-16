@@ -1,5 +1,7 @@
 # Stage 9: Useful Packages and Material UI
 
+This final stage introduces Material UI as an example of a mature React component library.
+
 ## Overview
 
 This final stage introduces Material UI as an example of a mature React component library.

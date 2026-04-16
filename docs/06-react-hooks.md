@@ -1,11 +1,11 @@
-# Stage 4: React Hooks
+# Stage 6: React Hooks
 
 ## Overview
 
 This stage introduces the core React hooks used throughout modern Next.js applications. The project includes interactive examples for each concept so learners can see when state changes, when effects run, and why memoization sometimes matters.
 
 Time to complete: 25-40 minutes  
-Prerequisites: Stages 1-3 complete  
+Prerequisites: Stages 1-5 complete
 Status: Complete
 
 ---
@@ -181,4 +181,4 @@ Debounce is a utility function, not a built-in React hook. It works alongside ho
 
 ## Next Step
 
-Move on to Stage 5 to compare server actions and API endpoints, including when each approach is the better fit.
+Move on to Stage 7 to compare server actions and API endpoints, including when each approach is the better fit.

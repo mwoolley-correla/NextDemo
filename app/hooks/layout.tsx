@@ -16,7 +16,7 @@ export default function HooksLayout({ children }: { children: React.ReactNode })
         {/* Sidebar */}
         <aside className="hidden lg:block w-52 shrink-0">
           <p className="text-xs font-semibold text-gray-400 dark:text-gray-500 uppercase tracking-wider mb-3">
-            Stage 4: Hooks
+            Stage 6: Hooks
           </p>
           <nav className="flex flex-col gap-1">
             {hookLinks.map((link) => (

@@ -12,7 +12,7 @@ export default function MonitoringPage() {
     <div className="max-w-4xl mx-auto px-4 py-10">
       <Breadcrumb items={[{ label: "Logging & Telemetry" }]} />
       <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-        Stage 8: Logging & Telemetry
+        Stage 10: Logging & Telemetry
       </h1>
       <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
         This dashboard shows recent in-memory log entries and timing samples produced by the app's server actions and API routes.

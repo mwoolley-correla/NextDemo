@@ -7,7 +7,7 @@ export default function ActionsVsApiPage() {
       <Breadcrumb items={[{ label: "Actions vs API" }]} />
 
       <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-        Stage 5: Server Actions vs API Endpoints
+        Stage 7: Server Actions vs API Endpoints
       </h1>
 
       <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">

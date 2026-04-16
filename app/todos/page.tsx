@@ -12,7 +12,7 @@ export default function TodosPage() {
     <div className="max-w-4xl mx-auto px-4 py-10">
       <Breadcrumb items={[{ label: "Database & Zod" }]} />
       <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-        Stage 7: Database & Zod
+        Stage 9: Database & Zod
       </h1>
       <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
         This stage uses SQLite for persistence and Zod for validation. Add a todo, refresh the page, and the record stays in the database.
