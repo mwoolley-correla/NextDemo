@@ -6,7 +6,7 @@ export default function Home() {
       id: 1,
       title: "Setup & Housekeeping",
       description: "Project initialization, dependencies, and folder structure",
-      href: "/",
+      href: "/setup",
       status: "completed",
     },
     {
