@@ -6,7 +6,7 @@ export default function Home() {
       id: 1,
       title: "Setup & Housekeeping",
       description: "Project initialization, dependencies, and folder structure",
-      href: "/",
+      href: "/setup",
       status: "completed",
     },
     {
@@ -63,6 +63,13 @@ export default function Home() {
       title: "MUI & Useful Packages",
       description: "Material-UI styling and other helpful libraries",
       href: "/mui-demo",
+      status: "completed",
+    },
+    {
+      id: 10,
+      title: "Pages & Layouts Architecture",
+      description: "How layout.tsx wraps and structures pages in your app",
+      href: "/pages-and-layouts",
       status: "completed",
     },
   ];
