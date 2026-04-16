@@ -1,8 +1,4 @@
-# Stage 5: Server Actions vs API Endpoints
 # Stage 7: Server Actions vs API Endpoints
-
-This stage compares two ways of running server-side logic in a Next.js app: server actions and API endpoints.
-# Stage 5: Server Actions vs API Endpoints
 
 ## Overview
 

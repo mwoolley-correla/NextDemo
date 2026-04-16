@@ -7,7 +7,7 @@ export default function RoutingPage() {
       <Breadcrumb items={[{ label: "Routing" }]} />
 
       <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-        Stage 2: Routing & File-Based Navigation
+        Stage 3: Routing & File-Based Navigation
       </h1>
       <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
         Next.js uses a file-based routing system. The folder structure inside{" "}
@@ -141,6 +141,9 @@ export default function BlogLayout({ children }: { children: React.ReactNode }) 
                 ["app/todos/page.tsx", "/todos", "7 — Database"],
                 ["app/monitoring/page.tsx", "/monitoring", "8 — Logging"],
                 ["app/mui-demo/page.tsx", "/mui-demo", "9 — MUI"],
+                ["app/environment/page.tsx", "/environment", "12 — Environment Variables"],
+                ["app/middleware/page.tsx", "/middleware", "13 — Middleware Concepts"],
+                ["app/proxy-csp/page.tsx", "/proxy-csp", "14 — Proxy, Headers, and CSP"],
                 ["app/api/demo/route.ts", "/api/demo", "5 — API endpoint"],
               ].map(([file, url, stage]) => (
                 <tr key={url}>

@@ -14,6 +14,9 @@ const stages = [
   { id: 9, title: "Database & Zod", href: "/todos" },
   { id: 10, title: "Logging", href: "/monitoring" },
   { id: 11, title: "MUI", href: "/mui-demo" },
+  { id: 12, title: "Environment", href: "/environment" },
+  { id: 13, title: "Middleware", href: "/middleware" },
+  { id: 14, title: "Proxy & CSP", href: "/proxy-csp" },
 ];
 
 export default function SiteNav() {

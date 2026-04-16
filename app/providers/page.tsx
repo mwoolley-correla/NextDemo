@@ -36,7 +36,7 @@ export default function ProvidersPage() {
             <h4 className="font-semibold text-gray-900 dark:text-white mb-3 text-red-600 dark:text-red-400">
               ❌ Prop Drilling
             </h4>
-            <pre className="bg-gray-100 dark:bg-gray-950 rounded p-3 text-xs overflow-x-auto border border-gray-300 dark:border-gray-700">
+            <pre className="bg-gray-100 dark:bg-gray-950 rounded p-3 text-xs overflow-x-auto border border-gray-300 dark:border-gray-700 text-white">
 {`<App user={user}>
   <Header user={user} />
   <Main user={user}>
@@ -56,7 +56,7 @@ export default function ProvidersPage() {
             <h4 className="font-semibold text-gray-900 dark:text-white mb-3 text-emerald-600 dark:text-emerald-400">
               ✅ Provider
             </h4>
-            <pre className="bg-gray-100 dark:bg-gray-950 rounded p-3 text-xs overflow-x-auto border border-gray-300 dark:border-gray-700">
+            <pre className="bg-gray-100 dark:bg-gray-950 rounded p-3 text-xs overflow-x-auto border border-gray-300 dark:border-gray-700 text-white">
 {`<UserProvider user={user}>
   <App />
   <Header /> {/* uses useUser() */}
