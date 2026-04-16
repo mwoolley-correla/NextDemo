@@ -1,11 +1,11 @@
-# Stage 10: Pages & Layouts Architecture
+# Stage 2: Pages & Layouts Architecture
 
 ## Overview
 
 This stage dives deeper into the relationship between `page.tsx` and `layout.tsx` files, showing how layouts wrap and structure your pages in Next.js. Understanding this hierarchy is essential for building organized, maintainable applications.
 
 Time to complete: 20-30 minutes  
-Prerequisites: Stage 2 (Routing) complete  
+Prerequisites: Stage 1 complete  
 Status: In Development
 
 ---

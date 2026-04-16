@@ -16,15 +16,15 @@ Each stage includes:
 | # | Stage | Route | Documentation |
 |---|---|---|---|
 | 1 | Setup & Housekeeping | /setup | [docs/01-setup.md](./docs/01-setup.md) |
-| 2 | Routing & Landing Hub | /routing | [docs/02-routing-pages.md](./docs/02-routing-pages.md) |
-| 3 | Server vs Client | /server-vs-client | [docs/03-server-vs-client.md](./docs/03-server-vs-client.md) |
-| 4 | React Hooks | /hooks | [docs/04-react-hooks.md](./docs/04-react-hooks.md) |
-| 5 | Server Actions vs API | /actions-vs-api | [docs/05-server-actions-vs-api.md](./docs/05-server-actions-vs-api.md) |
-| 6 | Components & Atomic Design | /components-demo | [docs/06-components-atomic.md](./docs/06-components-atomic.md) |
-| 7 | Database & Zod | /todos | [docs/07-database-zod.md](./docs/07-database-zod.md) |
-| 8 | Logging & Telemetry | /monitoring | [docs/08-logging-telemetry.md](./docs/08-logging-telemetry.md) |
-| 9 | MUI & Useful Packages | /mui-demo | [docs/09-useful-packages-mui.md](./docs/09-useful-packages-mui.md) |
-| 10 | Pages & Layouts Architecture | /pages-and-layouts | [docs/10-pages-and-layouts.md](./docs/10-pages-and-layouts.md) |
+| 2 | Pages & Layouts Architecture | /pages-and-layouts | [docs/10-pages-and-layouts.md](./docs/10-pages-and-layouts.md) |
+| 3 | Routing & Landing Hub | /routing | [docs/02-routing-pages.md](./docs/02-routing-pages.md) |
+| 4 | Server vs Client | /server-vs-client | [docs/03-server-vs-client.md](./docs/03-server-vs-client.md) |
+| 5 | React Hooks | /hooks | [docs/04-react-hooks.md](./docs/04-react-hooks.md) |
+| 6 | Server Actions vs API | /actions-vs-api | [docs/05-server-actions-vs-api.md](./docs/05-server-actions-vs-api.md) |
+| 7 | Components & Atomic Design | /components-demo | [docs/06-components-atomic.md](./docs/06-components-atomic.md) |
+| 8 | Database & Zod | /todos | [docs/07-database-zod.md](./docs/07-database-zod.md) |
+| 9 | Logging & Telemetry | /monitoring | [docs/08-logging-telemetry.md](./docs/08-logging-telemetry.md) |
+| 10 | MUI & Useful Packages | /mui-demo | [docs/09-useful-packages-mui.md](./docs/09-useful-packages-mui.md) |
 
 Home route: /
 

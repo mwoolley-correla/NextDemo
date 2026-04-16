@@ -7,7 +7,7 @@ export default function PagesAndLayoutsPage() {
       <Breadcrumb items={[{ label: "Pages & Layouts" }]} />
 
       <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-        Stage 10: Pages & Layouts Architecture
+        Stage 2: Pages & Layouts Architecture
       </h1>
       <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
         Understanding how <code className="bg-gray-200 dark:bg-gray-700 px-1.5 py-0.5 rounded text-sm">layout.tsx</code> and{" "}
@@ -244,16 +244,16 @@ export default function RootLayout({ children }) {
         </h3>
         <div className="grid gap-3">
           <Link
+            href="/setup"
+            className="p-3 rounded border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors text-gray-900 dark:text-white font-medium"
+          >
+            ← Stage 1: Setup & Housekeeping
+          </Link>
+          <Link
             href="/routing"
             className="p-3 rounded border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors text-gray-900 dark:text-white font-medium"
           >
-            ← Stage 2: Routing & File-Based Navigation
-          </Link>
-          <Link
-            href="/server-vs-client"
-            className="p-3 rounded border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors text-gray-900 dark:text-white font-medium"
-          >
-            → Stage 3: Server vs Client Components
+            → Stage 3: Routing & File-Based Navigation
           </Link>
         </div>
       </section>
