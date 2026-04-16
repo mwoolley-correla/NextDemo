@@ -1,218 +1,118 @@
-# Next.js & React Demo Project
+# Next.js Demo
 
-A comprehensive, hands-on educational project demonstrating core concepts of **Next.js 15+** and **React 19** for developers new to both frameworks.
+An educational, stage-based project that teaches core Next.js and React concepts through a single application.
 
-## 🎯 Project Goal
+## Overview
 
-This project guides learners through 9 progressive stages, building a single cumulative application that showcases real-world Next.js and React patterns. Each stage includes:
+This repository uses Next.js App Router, React 19, TypeScript strict mode, Tailwind CSS, and Material UI.
+Each stage includes:
 
-- **Runnable code** - A working feature you can test immediately
-- **Detailed documentation** - Step-by-step implementation with code snippets
-- **Interactive examples** - Hands-on demos embedded in the web app
-- **Best practices** - Production-ready patterns explained
+- runnable UI in the app
+- supporting written documentation in docs
+- practical patterns for server/client boundaries, actions, routing, and data
 
-## 📚 Stages
+## Stages
 
-| # | Stage | Focus | Status |
-|---|-------|-------|--------|
-| 1 | [Setup & Housekeeping](./docs/01-setup.md) | Project init, TypeScript, folder structure | ✅ Complete |
-| 2 | [Routing & Landing Hub](./docs/02-routing-pages.md) | File-based routing with App Router | ✅ Complete |
-| 3 | [Server vs Client](./docs/03-server-vs-client.md) | What works where and why | ✅ Complete |
-| 4 | [React Hooks](./docs/04-react-hooks.md) | useState, useEffect, useCallback, useActionState, debounce | ✅ Complete |
-| 5 | [Server Actions vs API](./docs/05-server-actions-vs-api.md) | When and why to use each | ✅ Complete |
-| 6 | [Components & Atomic Design](./docs/06-components-atomic.md) | Reusable component library | ✅ Complete |
-| 7 | [Database & Zod](./docs/07-database-zod.md) | SQLite with validation | ✅ Complete |
-| 8 | [Logging & Telemetry](./docs/08-logging-telemetry.md) | Structured logging and monitoring | ✅ Complete |
-| 9 | [MUI & Useful Packages](./docs/09-useful-packages-mui.md) | Material-UI styling and libraries | ✅ Complete |
+| # | Stage | Route | Documentation |
+|---|---|---|---|
+| 1 | Setup & Housekeeping | /setup | [docs/01-setup.md](./docs/01-setup.md) |
+| 2 | Routing & Landing Hub | /routing | [docs/02-routing-pages.md](./docs/02-routing-pages.md) |
+| 3 | Server vs Client | /server-vs-client | [docs/03-server-vs-client.md](./docs/03-server-vs-client.md) |
+| 4 | React Hooks | /hooks | [docs/04-react-hooks.md](./docs/04-react-hooks.md) |
+| 5 | Server Actions vs API | /actions-vs-api | [docs/05-server-actions-vs-api.md](./docs/05-server-actions-vs-api.md) |
+| 6 | Components & Atomic Design | /components-demo | [docs/06-components-atomic.md](./docs/06-components-atomic.md) |
+| 7 | Database & Zod | /todos | [docs/07-database-zod.md](./docs/07-database-zod.md) |
+| 8 | Logging & Telemetry | /monitoring | [docs/08-logging-telemetry.md](./docs/08-logging-telemetry.md) |
+| 9 | MUI & Useful Packages | /mui-demo | [docs/09-useful-packages-mui.md](./docs/09-useful-packages-mui.md) |
+| 10 | Pages & Layouts Architecture | /pages-and-layouts | [docs/10-pages-and-layouts.md](./docs/10-pages-and-layouts.md) |
 
-## 🚀 Quick Start
+Home route: /
 
-### Prerequisites
+## Tech Stack
 
-- **Node.js 18+**
-- **npm 9+**
+- Next.js 16.2.4
+- React 19.2.4
+- TypeScript 5 (strict mode enabled)
+- Tailwind CSS 4
+- Material UI 9 with Emotion
+- better-sqlite3
+- zod
 
-Verify installation:
+## Quick Start
+
+Prerequisites:
+
+- Node.js (current LTS recommended)
+- npm
+
+Install and run:
+
 ```bash
-node --version  # Should be 18 or higher
-npm --version   # Should be 9 or higher
-```
-
-### Installation
-
-```bash
-# Clone or navigate to this project
-cd nextdemo
-
-# Install dependencies (if not already installed)
 npm install
-
-# Start the development server
 npm run dev
 ```
 
-Visit **http://localhost:3000** in your browser.
+Open http://localhost:3000
 
-### Available Commands
+## Commands
 
 ```bash
-# Development server (http://localhost:3000)
 npm run dev
-
-# Production build
 npm run build
-
-# Start production server
 npm start
-
-# Check for TypeScript errors
 npx tsc --noEmit
 ```
 
-## 📁 Project Structure
+## Project Structure
 
-```
+```text
 nextdemo/
-├── app/                    # Next.js App Router routes
-│   ├── layout.tsx         # Root layout
-│   ├── page.tsx           # Home page (demo hub)
-│   ├── globals.css        # Global styles
-│   └── (future routes)    # Route groups for each stage
-├── components/            # Reusable UI components
-│   ├── atoms/            # Basic building blocks (Button, Input, etc.)
-│   ├── molecules/        # Combinations of atoms (Form, Card, etc.)
-│   └── organisms/        # Complex components (Sidebar, Header, etc.)
-├── lib/                   # Utility functions and server code
-│   ├── actions/          # Server actions
-│   ├── db.ts             # Database setup (Stage 7)
-│   ├── logging.ts        # Logging utilities (Stage 8)
-│   └── theme.ts          # MUI theme (Stage 9)
-├── docs/                  # Documentation for each stage
-│   ├── 01-setup.md
-│   ├── 02-routing-pages.md
-│   ├── 03-server-vs-client.md
-│   └── ... (through Stage 9)
-├── public/                # Static assets (images, fonts)
-├── next.config.ts         # Next.js configuration
-├── tsconfig.json          # TypeScript configuration
-├── package.json           # Dependencies
-├── postcss.config.mjs      # CSS processing
-└── tailwind.config.ts     # Tailwind CSS configuration
+	app/
+		layout.tsx
+		page.tsx
+		globals.css
+		setup/
+		routing/
+		server-vs-client/
+		hooks/
+		actions-vs-api/
+		components-demo/
+		todos/
+		monitoring/
+		mui-demo/
+		pages-and-layouts/
+		api/demo/route.ts
+	components/
+		atoms/
+		molecules/
+		organisms/
+		providers/
+	docs/
+		01-setup.md
+		02-routing-pages.md
+		03-server-vs-client.md
+		04-react-hooks.md
+		05-server-actions-vs-api.md
+		06-components-atomic.md
+		07-database-zod.md
+		08-logging-telemetry.md
+		09-useful-packages-mui.md
+		10-pages-and-layouts.md
+	lib/
+		actions/
+		db.ts
+		db-schema.ts
+		theme.ts
+		logging.ts
+		telemetry.ts
 ```
 
-## 🎓 How to Use This Project
+## Notes
 
-### For Learners
+- Dark mode base page background is controlled globally in app/globals.css.
+- The root wrapper for all pages is app/layout.tsx.
+- Stage 1 has its own dedicated route at /setup in addition to the written setup guide.
 
-1. **Read the Documentation**: Start with [Stage 1 docs](./docs/01-setup.md)
-2. **Follow the Code**: Each stage has code in the `app/` folder
-3. **Interact with Examples**: Visit `/stage-N` routes to see live demos
-4. **Experiment**: Modify code and see changes instantly (hot reload)
+## License
 
-### For Instructors
-
-- Each stage is self-contained with clear prerequisites
-- Documentation includes explanation, implementation, and pitfalls
-- Code examples are production-ready but intentionally simple
-- Can be taught linearly or individual stages can be skipped
-
-## 🛠 Technologies Used
-
-- **Next.js 15+** - React framework with file-based routing
-- **React 19** - UI library
-- **TypeScript** - Type safety
-- **Tailwind CSS** - Utility-first styling
-- **SQLite** - Database (Stage 7)
-- **Zod** - Type-safe validation (Stage 7)
-- **Material-UI** - Component library (Stage 9)
-
-## 📖 Key Concepts Covered
-
-### Next.js Concepts
-- ✅ App Router (file-based routing)
-- ✅ Server Components vs Client Components
-- ✅ Server Actions
-- ✅ API Routes
-- ✅ Dynamic routes and params
-- ✅ Metadata and SEO
-
-### React Concepts
-- ✅ Functional components
-- ✅ Hooks (useState, useEffect, useCallback, useActionState)
-- ✅ State management
-- ✅ Event handling
-- ✅ Forms and validation
-- ✅ Component composition
-
-### Full-Stack Concepts
-- ✅ Database integration (SQLite)
-- ✅ Data validation (Zod)
-- ✅ API design
-- ✅ Error handling
-- ✅ Logging and telemetry
-- ✅ Component libraries and theming
-
-## ⚙️ TypeScript Strict Mode
-
-This project runs in **strict TypeScript mode**, catching potential bugs at compile time:
-
-```bash
-# Check for any TypeScript errors
-npx tsc --noEmit
-```
-
-## 🐛 Troubleshooting
-
-### "Port 3000 already in use"
-```bash
-npm run dev -- -p 3001
-```
-
-### "npm command not found"
-Node.js or npm isn't installed. Download from https://nodejs.org/
-
-### "TypeScript errors in files I didn't modify"
-This is expected with strict mode. The errors are real and should be fixed!
-
-## 📚 Additional Resources
-
-- [Next.js Official Docs](https://nextjs.org/docs)
-- [React Official Docs](https://react.dev)
-- [TypeScript Handbook](https://www.typescriptlang.org/docs/)
-- [Tailwind CSS Docs](https://tailwindcss.com/docs)
-
-## 🤝 Contributing
-
-This is an educational project. Suggestions and improvements are welcome!
-
-## 📝 License
-
-This project is open source and available under the MIT License.
-
----
-
-## 🎬 Getting Started
-
-1. Read [Stage 1: Setup & Housekeeping](./docs/01-setup.md) - It walks through the entire setup process
-2. Run `npm run dev` to start the development server
-3. Visit http://localhost:3000 to see the demo hub
-4. Navigate to each stage as you complete the documentation
-
-**Happy learning! 🚀**
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
