@@ -1,67 +1,69 @@
+import Link from "next/link";
+
 export default function Home() {
   const stages = [
     {
       id: 1,
       title: "Setup & Housekeeping",
       description: "Project initialization, dependencies, and folder structure",
-      href: "#",
-      status: "current",
+      href: "/",
+      status: "completed",
     },
     {
       id: 2,
       title: "Routing & Landing Hub",
       description: "File-based routing with App Router",
-      href: "#",
-      status: "upcoming",
+      href: "/routing",
+      status: "completed",
     },
     {
       id: 3,
       title: "Server vs Client",
       description: "Understanding what can/can't be done on each side",
-      href: "#",
-      status: "upcoming",
+      href: "/server-vs-client",
+      status: "completed",
     },
     {
       id: 4,
       title: "React Hooks",
       description: "useState, useEffect, useCallback, useActionState, debounce",
-      href: "#",
-      status: "upcoming",
+      href: "/hooks",
+      status: "completed",
     },
     {
       id: 5,
       title: "Server Actions vs API",
       description: "Comparing server actions and API endpoints",
-      href: "#",
-      status: "upcoming",
+      href: "/actions-vs-api",
+      status: "completed",
     },
     {
       id: 6,
       title: "Components & Atomic Design",
       description: "Building reusable components with atomic structure",
-      href: "#",
-      status: "upcoming",
+      href: "/components-demo",
+      status: "completed",
     },
     {
       id: 7,
       title: "Database & Zod",
       description: "SQLite, Zod validation, and data persistence",
-      href: "#",
-      status: "upcoming",
+      href: "/todos",
+      status: "completed",
     },
     {
       id: 8,
       title: "Logging & Telemetry",
       description: "Structured logging and performance monitoring",
-      href: "#",
-      status: "upcoming",
+      href: "/monitoring",
+      status: "completed",
     },
     {
       id: 9,
       title: "MUI & Useful Packages",
       description: "Material-UI styling and other helpful libraries",
-      href: "#",
-      status: "upcoming",
+      href: "/mui-demo",
+      status: "completed",
     },
   ];
 
@@ -82,12 +84,14 @@ export default function Home() {
         {/* Stages Grid */}
         <div className="grid gap-6">
           {stages.map((stage) => (
-            <a
+            <Link
               key={stage.id}
               href={stage.href}
               className={`p-6 rounded-lg border-2 transition-all ${
                 stage.status === "current"
                   ? "border-blue-500 bg-blue-50 dark:bg-blue-950"
+                  : stage.status === "completed"
+                    ? "border-emerald-300 bg-emerald-50 dark:border-emerald-800 dark:bg-emerald-950"
                   : "border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 hover:border-gray-400 dark:hover:border-gray-500"
               }`}
             >
@@ -107,13 +111,19 @@ export default function Home() {
                   className={`px-3 py-1 rounded-full text-sm font-medium whitespace-nowrap ml-4 ${
                     stage.status === "current"
                       ? "bg-blue-500 text-white"
+                      : stage.status === "completed"
+                        ? "bg-emerald-600 text-white"
                       : "bg-gray-200 dark:bg-gray-700 text-gray-600 dark:text-gray-400"
                   }`}
                 >
-                  {stage.status === "current" ? "Current" : "Coming Soon"}
+                  {stage.status === "current"
+                    ? "Current"
+                    : stage.status === "completed"
+                      ? "Completed"
+                      : "Coming Soon"}
                 </span>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
 
@@ -124,7 +134,11 @@ export default function Home() {
           </h3>
           <p className="text-gray-600 dark:text-gray-400 mb-4">
             Each stage has detailed documentation with setup steps, code examples, and common
-            pitfalls. Check the{" "}
+            pitfalls. Start with{" "}
+            <Link href="/routing" className="text-blue-600 dark:text-blue-400 hover:underline">
+              the routing walkthrough
+            </Link>{" "}
+            and check the{" "}
             <code className="bg-gray-200 dark:bg-gray-700 px-2 py-1 rounded">docs/</code> folder.
           </p>
         </div>
