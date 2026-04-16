@@ -1,4 +1,4 @@
-# Stage 3: Server Components vs Client Components
+# Stage 4: Server Components vs Client Components
 
 ## Overview
 

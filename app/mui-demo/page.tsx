@@ -11,7 +11,7 @@ export default function MuiDemoPage() {
       </h1>
 
       <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
-        This stage introduces Material UI as an example of a mature component library. It sits alongside the custom components from Stage 6 rather than replacing them entirely.
+        This stage introduces Material UI as an example of a mature component library. It sits alongside the custom components from Stage 8 rather than replacing them entirely.
       </p>
 
       <MuiShowcase />

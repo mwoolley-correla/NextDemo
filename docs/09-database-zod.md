@@ -1,8 +1,4 @@
-# Stage 7: Database & Zod
 # Stage 9: Database & Zod
-
-This stage adds persistence and validation to the demo project.
-# Stage 7: Database & Zod
 
 ## Overview
 

@@ -79,6 +79,27 @@ export default function Home() {
       href: "/mui-demo",
       status: "completed",
     },
+    {
+      id: 12,
+      title: "Environment Variables",
+      description: "Using .env files and safely consuming env vars on server and client",
+      href: "/environment",
+      status: "completed",
+    },
+    {
+      id: 13,
+      title: "Middleware Concepts",
+      description: "What middleware does, where it runs, and how this repo implements it",
+      href: "/middleware",
+      status: "completed",
+    },
+    {
+      id: 14,
+      title: "Proxy, Headers, and CSP",
+      description: "Use proxy.ts to centralize security headers and Content Security Policy",
+      href: "/proxy-csp",
+      status: "completed",
+    },
   ];
 
   return (

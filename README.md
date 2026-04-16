@@ -26,6 +26,9 @@ Each stage includes:
 | 9 | Database & Zod | /todos | [docs/09-database-zod.md](./docs/09-database-zod.md) |
 | 10 | Logging & Telemetry | /monitoring | [docs/10-logging-telemetry.md](./docs/10-logging-telemetry.md) |
 | 11 | MUI & Useful Packages | /mui-demo | [docs/11-useful-packages-mui.md](./docs/11-useful-packages-mui.md) |
+| 12 | Environment Variables | /environment | [docs/12-environment-variables.md](./docs/12-environment-variables.md) |
+| 13 | Middleware Concepts | /middleware | [docs/13-middleware.md](./docs/13-middleware.md) |
+| 14 | Proxy, Headers, and CSP | /proxy-csp | [docs/14-proxy-csp.md](./docs/14-proxy-csp.md) |
 
 Home route: /
 
@@ -81,8 +84,12 @@ nextdemo/
 		todos/
 		monitoring/
 		mui-demo/
+		environment/
+		proxy-csp/
+		middleware/
 		pages-and-layouts/
 		api/demo/route.ts
+	proxy.ts
 	components/
 		atoms/
 		molecules/
@@ -100,6 +107,9 @@ nextdemo/
 		09-database-zod.md
 		10-logging-telemetry.md
 		11-useful-packages-mui.md
+		12-environment-variables.md
+		13-middleware.md
+		14-proxy-csp.md
 	lib/
 		actions/
 		db.ts

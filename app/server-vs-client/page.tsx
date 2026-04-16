@@ -46,7 +46,7 @@ export default function ServerVsClientPage() {
       <Breadcrumb items={[{ label: "Server vs Client" }]} />
 
       <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-        Stage 3: Server vs Client Components
+        Stage 4: Server vs Client Components
       </h1>
 
       <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
