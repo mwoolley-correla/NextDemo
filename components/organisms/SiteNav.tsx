@@ -1,15 +1,18 @@
+"use client";
+
 import Link from "next/link";
 
 const stages = [
-  { id: 1, title: "Setup", href: "/" },
-  { id: 2, title: "Routing", href: "/routing" },
-  { id: 3, title: "Server vs Client", href: "/server-vs-client" },
-  { id: 4, title: "React Hooks", href: "/hooks" },
-  { id: 5, title: "Actions vs API", href: "/actions-vs-api" },
-  { id: 6, title: "Components", href: "/components-demo" },
-  { id: 7, title: "Database & Zod", href: "/todos" },
-  { id: 8, title: "Logging", href: "/monitoring" },
-  { id: 9, title: "MUI", href: "/mui-demo" },
+  { id: 1, title: "Setup", href: "/setup" },
+  { id: 2, title: "Pages & Layouts", href: "/pages-and-layouts" },
+  { id: 3, title: "Routing", href: "/routing" },
+  { id: 4, title: "Server vs Client", href: "/server-vs-client" },
+  { id: 5, title: "React Hooks", href: "/hooks" },
+  { id: 6, title: "Actions vs API", href: "/actions-vs-api" },
+  { id: 7, title: "Components", href: "/components-demo" },
+  { id: 8, title: "Database & Zod", href: "/todos" },
+  { id: 9, title: "Logging", href: "/monitoring" },
+  { id: 10, title: "MUI", href: "/mui-demo" },
 ];
 
 export default function SiteNav() {

@@ -137,7 +137,7 @@ export default function SetupPage() {
           Outcome
         </h2>
         <p className="text-sm leading-6 text-emerald-900 dark:text-emerald-100">
-          Stage 1 now has its own route and acts as the missing bridge between the generic documentation and the actual state of the repository. From here, Stage 2 can focus purely on routing instead of setup details.
+          Stage 1 now has its own route and acts as the missing bridge between the generic documentation and the actual state of the repository. From here, Stage 2 can focus on page/layout composition, then Stage 3 can focus purely on routing.
         </p>
       </section>
     </div>

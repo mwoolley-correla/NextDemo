@@ -286,7 +286,7 @@ You now have a production-ready Next.js project with:
 
 ## Next Steps
 
-Once you've verified everything works, move on to **Stage 2: Routing & Landing Hub**, where you'll learn how file-based routing works and create a navigation hub for all demo pages.
+Once you've verified everything works, move on to **Stage 2: Pages & Layouts Architecture**, then continue to **Stage 3: Routing & Landing Hub** to learn how file-based routing works and create a navigation hub for all demo pages.
 
 ---
 

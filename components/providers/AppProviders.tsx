@@ -7,9 +7,11 @@ import type { ReactNode } from "react";
 
 export default function AppProviders({ children }: { children: ReactNode }) {
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      {children}
-    </ThemeProvider>
+    <div suppressHydrationWarning>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        {children}
+      </ThemeProvider>
+    </div>
   );
 }
