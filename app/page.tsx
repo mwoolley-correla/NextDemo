@@ -65,6 +65,13 @@ export default function Home() {
       href: "/mui-demo",
       status: "completed",
     },
+    {
+      id: 10,
+      title: "Pages & Layouts Architecture",
+      description: "How layout.tsx wraps and structures pages in your app",
+      href: "/pages-and-layouts",
+      status: "completed",
+    },
   ];
 
   return (

@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      
+      {
+        "name": "Launch Browser",
+        "request": "launch",
+        "type": "editor-browser",
+         "url": "http://localhost:3000",
+         "webRoot": "${workspaceFolder}"
+      },
+      {
+          "name": "Server-Side",
+          "type": "node-terminal",
+          "request": "launch",
+          "command": "powershell -ExecutionPolicy Bypass -Command 'npm run dev'"
+      },
+      {
+        "name": "Client Firefox",
+        "type": "firefox",
+        "firefoxExecutable": "C:\\Users\\mark.woolley\\AppData\\Local\\Mozilla Firefox\\firefox.exe",
+        "request": "launch",
+        "url": "http://localhost:3000",
+        "reAttach": true,
+        "pathMappings": [{
+            "url": "webpack://_N_E/",
+            "path": "${workspaceFolder}"
+          }]
+      },
+    ]
+}
