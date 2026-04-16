@@ -141,4 +141,4 @@ That works, but it throws away one of the biggest advantages of Next.js. Default
 
 ## Next Step
 
-Move on to Stage 4 for focused React hook examples: `useState`, `useEffect`, `useCallback`, `useActionState`, and debounce.
+Move on to Stage 5 (Providers & Context), then Stage 6 for focused React hook examples: `useState`, `useEffect`, `useCallback`, `useActionState`, and debounce.

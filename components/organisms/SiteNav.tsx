@@ -7,12 +7,13 @@ const stages = [
   { id: 2, title: "Pages & Layouts", href: "/pages-and-layouts" },
   { id: 3, title: "Routing", href: "/routing" },
   { id: 4, title: "Server vs Client", href: "/server-vs-client" },
-  { id: 5, title: "React Hooks", href: "/hooks" },
-  { id: 6, title: "Actions vs API", href: "/actions-vs-api" },
-  { id: 7, title: "Components", href: "/components-demo" },
-  { id: 8, title: "Database & Zod", href: "/todos" },
-  { id: 9, title: "Logging", href: "/monitoring" },
-  { id: 10, title: "MUI", href: "/mui-demo" },
+  { id: 5, title: "Providers", href: "/providers" },
+  { id: 6, title: "React Hooks", href: "/hooks" },
+  { id: 7, title: "Actions vs API", href: "/actions-vs-api" },
+  { id: 8, title: "Components", href: "/components-demo" },
+  { id: 9, title: "Database & Zod", href: "/todos" },
+  { id: 10, title: "Logging", href: "/monitoring" },
+  { id: 11, title: "MUI", href: "/mui-demo" },
 ];
 
 export default function SiteNav() {

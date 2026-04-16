@@ -16,15 +16,16 @@ Each stage includes:
 | # | Stage | Route | Documentation |
 |---|---|---|---|
 | 1 | Setup & Housekeeping | /setup | [docs/01-setup.md](./docs/01-setup.md) |
-| 2 | Pages & Layouts Architecture | /pages-and-layouts | [docs/10-pages-and-layouts.md](./docs/10-pages-and-layouts.md) |
-| 3 | Routing & Landing Hub | /routing | [docs/02-routing-pages.md](./docs/02-routing-pages.md) |
-| 4 | Server vs Client | /server-vs-client | [docs/03-server-vs-client.md](./docs/03-server-vs-client.md) |
-| 5 | React Hooks | /hooks | [docs/04-react-hooks.md](./docs/04-react-hooks.md) |
-| 6 | Server Actions vs API | /actions-vs-api | [docs/05-server-actions-vs-api.md](./docs/05-server-actions-vs-api.md) |
-| 7 | Components & Atomic Design | /components-demo | [docs/06-components-atomic.md](./docs/06-components-atomic.md) |
-| 8 | Database & Zod | /todos | [docs/07-database-zod.md](./docs/07-database-zod.md) |
-| 9 | Logging & Telemetry | /monitoring | [docs/08-logging-telemetry.md](./docs/08-logging-telemetry.md) |
-| 10 | MUI & Useful Packages | /mui-demo | [docs/09-useful-packages-mui.md](./docs/09-useful-packages-mui.md) |
+| 2 | Pages & Layouts Architecture | /pages-and-layouts | [docs/02-pages-and-layouts.md](./docs/02-pages-and-layouts.md) |
+| 3 | Routing & Landing Hub | /routing | [docs/03-routing-pages.md](./docs/03-routing-pages.md) |
+| 4 | Server vs Client | /server-vs-client | [docs/04-server-vs-client.md](./docs/04-server-vs-client.md) |
+| 5 | Providers & Context | /providers | [docs/05-providers.md](./docs/05-providers.md) |
+| 6 | React Hooks | /hooks | [docs/06-react-hooks.md](./docs/06-react-hooks.md) |
+| 7 | Server Actions vs API | /actions-vs-api | [docs/07-server-actions-vs-api.md](./docs/07-server-actions-vs-api.md) |
+| 8 | Components & Atomic Design | /components-demo | [docs/08-components-atomic.md](./docs/08-components-atomic.md) |
+| 9 | Database & Zod | /todos | [docs/09-database-zod.md](./docs/09-database-zod.md) |
+| 10 | Logging & Telemetry | /monitoring | [docs/10-logging-telemetry.md](./docs/10-logging-telemetry.md) |
+| 11 | MUI & Useful Packages | /mui-demo | [docs/11-useful-packages-mui.md](./docs/11-useful-packages-mui.md) |
 
 Home route: /
 
@@ -89,15 +90,16 @@ nextdemo/
 		providers/
 	docs/
 		01-setup.md
-		02-routing-pages.md
-		03-server-vs-client.md
-		04-react-hooks.md
-		05-server-actions-vs-api.md
-		06-components-atomic.md
-		07-database-zod.md
-		08-logging-telemetry.md
-		09-useful-packages-mui.md
-		10-pages-and-layouts.md
+		02-pages-and-layouts.md
+		03-routing-pages.md
+		04-server-vs-client.md
+		05-providers.md
+		06-react-hooks.md
+		07-server-actions-vs-api.md
+		08-components-atomic.md
+		09-database-zod.md
+		10-logging-telemetry.md
+		11-useful-packages-mui.md
 	lib/
 		actions/
 		db.ts

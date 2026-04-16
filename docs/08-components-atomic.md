@@ -1,4 +1,8 @@
 # Stage 6: Components & Atomic Design
+# Stage 8: Components & Atomic Design
+
+This stage turns the component folders into a real reusable UI structure. Instead of putting everything directly in pages, the project now composes interface pieces from atoms, molecules, and organisms.
+# Stage 6: Components & Atomic Design
 
 ## Overview
 

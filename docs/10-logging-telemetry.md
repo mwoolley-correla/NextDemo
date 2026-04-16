@@ -1,4 +1,8 @@
 # Stage 8: Logging & Telemetry
+# Stage 10: Logging & Telemetry
+
+This stage adds lightweight observability to the demo project.
+# Stage 8: Logging & Telemetry
 
 ## Overview
 
