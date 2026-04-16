@@ -1,5 +1,7 @@
+import AppProviders from "@/components/providers/AppProviders";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import SiteNav from "@/components/organisms/SiteNav";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -28,7 +30,10 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-gray-50 dark:bg-gray-900">
-        {children}
+        <AppProviders>
+          <SiteNav />
+          <main className="flex-1">{children}</main>
+        </AppProviders>
       </body>
     </html>
   );

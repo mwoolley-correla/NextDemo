@@ -15,15 +15,15 @@ This project guides learners through 9 progressive stages, building a single cum
 
 | # | Stage | Focus | Status |
 |---|-------|-------|--------|
-| 1 | [Setup & Housekeeping](./docs/01-setup.md) | Project init, TypeScript, folder structure | ✅ Current |
-| 2 | Routing & Landing Hub | File-based routing with App Router | 🔜 Coming |
-| 3 | Server vs Client | What works where and why | 🔜 Coming |
-| 4 | React Hooks | useState, useEffect, useCallback, useActionState, debounce | 🔜 Coming |
-| 5 | Server Actions vs API | When and why to use each | 🔜 Coming |
-| 6 | Components & Atomic Design | Reusable component library | 🔜 Coming |
-| 7 | Database & Zod | SQLite with validation | 🔜 Coming |
-| 8 | Logging & Telemetry | Structured logging and monitoring | 🔜 Coming |
-| 9 | MUI & Useful Packages | Material-UI styling and libraries | 🔜 Coming |
+| 1 | [Setup & Housekeeping](./docs/01-setup.md) | Project init, TypeScript, folder structure | ✅ Complete |
+| 2 | [Routing & Landing Hub](./docs/02-routing-pages.md) | File-based routing with App Router | ✅ Complete |
+| 3 | [Server vs Client](./docs/03-server-vs-client.md) | What works where and why | ✅ Complete |
+| 4 | [React Hooks](./docs/04-react-hooks.md) | useState, useEffect, useCallback, useActionState, debounce | ✅ Complete |
+| 5 | [Server Actions vs API](./docs/05-server-actions-vs-api.md) | When and why to use each | ✅ Complete |
+| 6 | [Components & Atomic Design](./docs/06-components-atomic.md) | Reusable component library | ✅ Complete |
+| 7 | [Database & Zod](./docs/07-database-zod.md) | SQLite with validation | ✅ Complete |
+| 8 | [Logging & Telemetry](./docs/08-logging-telemetry.md) | Structured logging and monitoring | ✅ Complete |
+| 9 | [MUI & Useful Packages](./docs/09-useful-packages-mui.md) | Material-UI styling and libraries | ✅ Complete |
 
 ## 🚀 Quick Start
 
@@ -199,25 +199,6 @@ This project is open source and available under the MIT License.
 4. Navigate to each stage as you complete the documentation
 
 **Happy learning! 🚀**
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
